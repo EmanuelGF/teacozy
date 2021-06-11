@@ -1,2 +1,2 @@
-# teacozy
-intermediate CSS (Codecademy project)
+# Tea Cozy
+Intermediate CSS (Codecademy project)
