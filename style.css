@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell; 
+  background-color: black;
+  z-index: 9999;
+}
+
+.nav-logo img {
+  margin: 10px;
+  height: 50px; 
+  float: left;
+}
+
+.nav-menu ul li {
+  display: inline;
+  float: right;
+  margin: 0px 10px;
+}
+
+.nav-menu ul li a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  background-color: #ccc;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg")
+}
+
+.mission-banner {
+  background-color: black;
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
+
+#teaser {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.teaser-title {
+  text-align: center;
+}
+
+.teaser-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teaser-tea {
+  margin: 10px 10px;
+  align-content: center;
+}
+
+.teaser-tea img {
+  width: 300px;
+  height: 200px;
+  margin: 0px;
+}
+
+.teaser-tea h4 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0px auto;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  background-size: cover;  
+}
+
+#locations h2 {
+  position: absolute;
+  left: 570px;
+  top: 1440px;
+  z-index: 9999;
+}
+
+.locations-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-location {
+  width: 300px;
+  margin: 0px 20px;
+  background-color: black;
+  text-align: center;
+  opacity: 0.95;
+  border-radius: 5px;
+}
+
+.locations-location p {
+  font-size: 1rem;
+}
+
+.contacts {
+  text-align: center;
+}
+
+footer {
+  margin: 20px 0px;
+}
+
+footer small {
+  margin: 20px;
+}
